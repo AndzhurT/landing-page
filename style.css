@@ -18,7 +18,7 @@ a,
 .container {
     display: flex;
     justify-content: space-between;
-    flex-basis: 1250px;
+    flex-basis: 1000px;
     
 }
 
@@ -61,6 +61,8 @@ li {
     display: flex;
     background-color: #1F2937;
     justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
 }
 
 .text-desc {
@@ -90,14 +92,15 @@ li {
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 18px;
-    
 }
 
 .img-placeholder {
     height: 225px;
-    width: 450px;
+    width: 500px;
     background-color: #7d7f81;
     color: #e4e7eb;
     text-align: center;
     line-height: 225px;
 }
+
+/* body section two */
