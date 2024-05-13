@@ -193,12 +193,12 @@ li {
 }
 
 .section-four .container-four {
-    height: 40%;  /* height 40% from 350px */
+    height: 45%;  /* height 40% from 350px */
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #3882F6;
-    flex-basis: 1100px;
+    flex-basis: 1050px;
     border-radius: 8px;
 }
 
@@ -230,7 +230,13 @@ li {
 /* footer */
 
 .footer {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%; /* full screen */
     background-color: #1F2937;
     color: #E5E7EB;
+    gap: 10px;
+    font-size: 18px;
 }
