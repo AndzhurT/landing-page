@@ -21,6 +21,18 @@ a,
     flex-basis: 1000px;
 }
 
+.section-one .text-desc button,
+.section-four .inverse-button {
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 6px;
+    width: 132px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+
+
 /* header */
 
 a {
@@ -64,33 +76,27 @@ li {
     align-items: center;
 }
 
-.text-desc {
+.section-one .text-desc {
     display: flex;
     flex-direction: column;
     flex-basis: 450px;
     gap: 8px;
 }
 
-.text-desc .large-text {
+.section-one .text-desc .large-text {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
 
-.text-desc .smaller-text {
+.section-one .text-desc .smaller-text {
     flex-wrap: wrap;
 }
 
-.text-desc button {
-    flex-grow: 0;
-    flex-shrink: 0;
-    padding: 8px;
-    width: 128px;
+.section-one .text-desc button {
     border: none;
-    border-radius: 8px;
     background-color: #3882F6;
     color: #F9FAF8;
-    font-size: 18px;
 }
 
 .img-placeholder {
@@ -164,7 +170,7 @@ li {
 }
 
 .section-three .quote {
-    color: #1F2937;
+    color: #3d4a5c;
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
@@ -183,12 +189,48 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 350px;
 }
 
 .section-four .container-four {
+    height: 40%;  /* height 40% from 350px */
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #3882F6;
+    flex-basis: 1100px;
+    border-radius: 8px;
 }
 
+.section-four .action-information {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.section-four .bold-action {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.section-four .light-action {
+    font-size: 18px;
+    font-weight: 100;
+    color: #E5E7EB;
+}
+
+.section-four .inverse-button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    font-weight: 500;
+}
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
